@@ -14,6 +14,11 @@
 				<CommandName>Form.StandardCommand.OpenFromStandaloneServer</CommandName>
 				<ExtendedTooltip name="ФормаОткрытьСАвтономногоСервераРасширеннаяПодсказка" id="68"/>
 			</Button>
+			<Button name="ФормаПолучитьЦенуТовара" id="72">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ПолучитьЦенуТовара</CommandName>
+				<ExtendedTooltip name="ФормаПолучитьЦенуТовараРасширеннаяПодсказка" id="73"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
@@ -542,6 +547,21 @@
 			</ToolTip>
 			<Action>ЗакончитьРедактирование</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ПолучитьЦенуТовара" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить цену товара</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить цену товара</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПолучитьЦенуТовара</Action>
 		</Command>
 	</Commands>
 	<CommandInterface>
