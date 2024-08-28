@@ -307,15 +307,15 @@
 				<xr:Characteristic>
 					<xr:CharacteristicTypes from="ChartOfCharacteristicTypes.ВидыХарактеристик">
 						<xr:KeyField>ChartOfCharacteristicTypes.ВидыХарактеристик.StandardAttribute.Ref</xr:KeyField>
-						<xr:TypesFilterField>ChartOfCharacteristicTypes.ВидыХарактеристик.Attribute.Назначение</xr:TypesFilterField>
-						<xr:TypesFilterValue xsi:type="xr:DesignTimeRef">Enum.НазначениеХарактеристик.EnumValue.Товары</xr:TypesFilterValue>
+						<xr:TypesFilterField>-1</xr:TypesFilterField>
+						<xr:TypesFilterValue xsi:nil="true"/>
 						<xr:DataPathField>ChartOfCharacteristicTypes.ВидыХарактеристик.StandardAttribute.Ref</xr:DataPathField>
 						<xr:MultipleValuesUseField>ChartOfCharacteristicTypes.ВидыХарактеристик.Attribute.Множественная</xr:MultipleValuesUseField>
 					</xr:CharacteristicTypes>
 					<xr:CharacteristicValues from="InformationRegister.Характеристики">
-						<xr:ObjectField>InformationRegister.Характеристики.Dimension.Объект</xr:ObjectField>
-						<xr:TypeField>InformationRegister.Характеристики.Dimension.ВидХарактеристики</xr:TypeField>
-						<xr:ValueField>InformationRegister.Характеристики.Resource.Значение</xr:ValueField>
+						<xr:ObjectField>-1</xr:ObjectField>
+						<xr:TypeField>-1</xr:TypeField>
+						<xr:ValueField>-1</xr:ValueField>
 						<xr:MultipleValuesKeyField>InformationRegister.Характеристики.Dimension.Номер</xr:MultipleValuesKeyField>
 						<xr:MultipleValuesOrderField>InformationRegister.Характеристики.Dimension.Номер</xr:MultipleValuesOrderField>
 					</xr:CharacteristicValues>
@@ -613,6 +613,51 @@
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
 					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5efcd5ec-1b5d-409c-beee-e5e34771f8c5">
+				<Properties>
+					<Name>Цена</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Цена</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>

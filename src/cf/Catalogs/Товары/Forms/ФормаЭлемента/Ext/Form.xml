@@ -102,6 +102,12 @@
 			<ContextMenu name="ШтрихКодКонтекстноеМеню" id="18"/>
 			<ExtendedTooltip name="ШтрихКодExtendedTooltip" id="33"/>
 		</InputField>
+		<InputField name="Цена" id="69">
+			<DataPath>Объект.Цена</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ЦенаКонтекстноеМеню" id="70"/>
+			<ExtendedTooltip name="ЦенаРасширеннаяПодсказка" id="71"/>
+		</InputField>
 		<Pages name="Страницы" id="21">
 			<Title>
 				<v8:item>
